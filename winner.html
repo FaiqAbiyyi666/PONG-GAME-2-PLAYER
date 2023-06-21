@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winner</title>
+    <script>
+        function newLocation() {
+            sessionStorage.setItem("winner", "None");
+            window.location.href="start.html";
+        }
+    </script>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url('img/begaBege.png');
+            background-size: 100%;
+            background-position: center;
+            color:white;
+            font-family: 'MS UI Gothic', bold;
+        }
+
+        img {
+            position: center;
+            top: 30px;
+            left: 30px;
+            width: 5%;
+            height: 10%;
+        }
+
+        button{
+            font-family: 'MS UI Gothic', bold;
+            padding:10px 15px;
+            font-size: 24px;
+            background: rgba(0, 0, 0, 0);
+            border: 1px solid rgb(255, 255, 255);
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div style="float: center; margin-top: 30px; top: 50px; left: 50px; font-size: 80px; font-family: 'Rockwell Condensed', cursive; color: white;">PONG'S Game</div>
+    <div style="margin-top: 10px; position: center; top: 10px; left: 50px; font-size: 30px; font-family: 'Comic Sans MS', cursive; color: white;">Multiplayer</div>
+    <br>
+    <img src="img/ping.png" alt="pong">
+    <br>
+    <button onclick="newLocation()" style="background-color: #ffffff; color: #000;"> <b>Play Again</b> </button>
+</body>
+</html>

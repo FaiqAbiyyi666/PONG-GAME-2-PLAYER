@@ -1,0 +1,46 @@
+body{
+    background-color: #121212;
+    background: url(img/begaBege.png);
+    background-size: 100% 101%;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 550px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Rockwell Condensed;
+    position: relative;
+}
+
+
+/* .center {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+#cPong{
+    border: 7px solid #ffffff;
+    position: absolute;
+    margin :auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+}
+
+button{
+    font-family: 'MS UI Gothic', bold;
+    padding:10px 15px;
+    margin-top: 30px;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    
+
+}
